@@ -1,1 +1,24 @@
-<p>login works!</p>
+<div class="flex flex-column">
+    <span class="text-lg mb-4"></span>
+        <h1>Login</h1>
+       
+        <mat-form-field>
+            <mat-label>Email</mat-label>
+            <input matInput type="email" placeholder="Email">
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Contraseña</mat-label>
+            <input matInput type="password" placeholder="Contraseña">
+        </mat-form-field>
+
+        <button mat-button mat-flat-button color="primary">
+            Login
+            <mat-icon>save</mat-icon>
+        </button>
+
+
+        <div class="flex justify-content-end mt-5">
+            <a routerLink="/auth/register" class="text-primary">No tienes cuenta ?</a>
+        </div>
+    
+</div>
