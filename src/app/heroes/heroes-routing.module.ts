@@ -11,7 +11,7 @@ const routes: Routes = [
     path:'',
     component: LayoutComponent,
     children:[
-      { path:'new-hero', component: NewHeroComponent },
+      { path:'new', component: NewHeroComponent },
       { path:'list' , component: ListComponent },
       { path: 'search', component: SearchHeroComponent },
       { path: 'edit/:id', component: NewHeroComponent },

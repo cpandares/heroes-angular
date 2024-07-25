@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class NewHeroComponent {
 
+
+  public publishers = [
+    { id: 'DC Comics', desc: 'DC - Comics' },
+    { id: 'Marvel Comics', desc: 'Marvel - Comics' },
+  ];
+
 }
