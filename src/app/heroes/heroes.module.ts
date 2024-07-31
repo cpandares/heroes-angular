@@ -11,6 +11,7 @@ import { SearchHeroComponent } from './pages/search-hero/search-hero.component';
 import { CardComponent } from './components/card/card.component';
 import { HeroImagePipe } from './pipes/HeroImage.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     NewHeroComponent,
     SearchHeroComponent,
     CardComponent,
-    HeroImagePipe
+    HeroImagePipe,
+    ConfirmDialogComponent
   ],
   imports: [
     CommonModule,
